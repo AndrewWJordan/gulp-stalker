@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
 
-var projectFolder = 'PROJECT/DIRECTORY/ROOT/PATH';
+var projectFolder = '/var/www/html/fishinglog/';
 
 gulp.task('sass', function() {
     return gulp.src(projectFolder + 'css/**/*.scss')
